@@ -8,8 +8,9 @@ body {
 
 .itemTarea {
   position: relative;
-  padding-left: 30px; /* espacio para el ícono */
+  padding-left: 30px; 
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .itemTarea::before {
@@ -17,7 +18,7 @@ body {
   left: 80px;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-40%);
   width: 50px;
   height: 50px;
   background-image: url('https://t3.ftcdn.net/jpg/09/96/82/36/360_F_996823616_8zWpKNAHL1LWeaqKu0vEHyrBbJCyZAkm.png');
