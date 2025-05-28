@@ -1,12 +1,14 @@
-body{
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+body {
+  background-image: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=800);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: azure;
 }
-.itemTarea{
-    text-align: justify-center;
-    padding-top: 10px;
+
+.itemTarea {
+  text-align: center;
+  padding-top: 10px;
 }
 
 
@@ -21,17 +23,17 @@ body{
   transition: opacity 0.3s ease;
 }
 
-.itemTarea:hover{
-    font-size: 20px;
-    
+.itemTarea:hover {
+  font-size: 20px;
+
 }
+
 .itemTarea:hover .eliminar {
   opacity: 1;
   font-size: 24px;
 }
 
-.listaTareas{
-    color:azure;
-    background-image: none;
-    height: 500px;
+.listaTareas {
+  height: 500px;
+  padding-top: 60px;
 }

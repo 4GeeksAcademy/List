@@ -24,7 +24,7 @@ export default function ListaTareas() {
 				<h2>To Do List</h2>
 				<InputToDo incluir={agregarNuevaTarea} />
 				{tareas.map(tarea => (
-					<ItemTarea
+					<ItemTarea 
 						key={tarea}
 						tarea={tarea}
 						eliminar={() => eliminar(tarea)}
