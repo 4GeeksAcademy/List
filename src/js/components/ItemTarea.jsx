@@ -5,7 +5,7 @@ export default function ItemTarea({tarea, eliminar}){
     }
     return (
     <div className="itemTarea">
-        <span><i className="ri-star-s-line"></i>{tarea}</span>
+        <span>{tarea}</span>
         <span className="eliminar" onClick={eliminarClick}>X</span>
     </div>)
 }
