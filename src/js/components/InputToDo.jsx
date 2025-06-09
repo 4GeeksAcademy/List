@@ -6,9 +6,15 @@ export default function InputToDo({ incluir }) {
         setTextoTarea(e.target.value);
     }
     const handleClick = () => {
-        incluir(textoTarea);
-        setTextoTarea('');
-    }
+		if (textoTarea.trim() === '') return;
+
+		incluir({
+			label: textoTarea,
+			id: Date.now() //Esto es para darle una propiedad y que se agregue texto tanto por API como por el input
+		});
+		setTextoTarea('');
+	};
+    
     const handleEnter = (event) => {
         if (event.key === 'Enter'){
             handleClick();
